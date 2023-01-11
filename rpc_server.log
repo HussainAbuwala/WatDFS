@@ -1,0 +1,434 @@
+
+rpcServerInit()
+rpcServerInit(), returned=0
+
+rpcRegister(getattr)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1610678273 (is_input:0, is_output:1, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(getattr), returned=0
+
+rpcRegister(mknod)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(mknod), returned=0
+
+rpcRegister(open)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-536805375 (is_input:1, is_output:1, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(open), returned=0
+
+rpcRegister(release)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(release), returned=0
+
+rpcRegister(utimens)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(utimens), returned=0
+
+rpcRegister(read)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1610678273 (is_input:0, is_output:1, is_array:1, type:1, array_len:1)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(read), returned=0
+
+rpcRegister(write)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(write), returned=0
+
+rpcRegister(truncate)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(truncate), returned=0
+
+rpcRegister(fsync)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(fsync), returned=0
+
+rpcRegister(lock)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(lock), returned=0
+
+rpcRegister(unlock)
+	ArgTypes:[
+		-1610547199 (is_input:1, is_output:0, is_array:1, type:1, array_len:1)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcRegister(unlock), returned=0
+
+rpcExecute()
+	Listening on address:ubuntu2004-012, port:35545
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(mknod)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(mknod), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(lock), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(open), returned:0
+
+received execute(read)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678272 (is_input:0, is_output:1, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(read), returned:0
+
+received execute(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(release), returned:0
+
+received execute(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(unlock), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(open), returned:0
+
+received execute(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(lock), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(open), returned:0
+
+received execute(read)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678272 (is_input:0, is_output:1, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(read), returned:0
+
+received execute(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(release), returned:0
+
+received execute(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(unlock), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(lock), returned:0
+
+received execute(truncate)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(truncate), returned:0
+
+received execute(write)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547200 (is_input:1, is_output:0, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(write), returned:0
+
+received execute(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(unlock), returned:0
+
+received execute(utimens)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547168 (is_input:1, is_output:0, is_array:1, type:1, array_len:32)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(utimens), returned:0
+
+received execute(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(release), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(lock), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0
+
+received execute(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(open), returned:0
+
+received execute(read)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678272 (is_input:0, is_output:1, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(read), returned:0
+
+received execute(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(release), returned:0
+
+received execute(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(unlock), returned:0
+
+received execute(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+received execute(getattr), returned:0

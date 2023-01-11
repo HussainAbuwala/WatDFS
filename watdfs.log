@@ -1,0 +1,150 @@
+
+watdfs_init()
+	path_to_cache:/tmp/hsabuwal/cache
+	cache_interval:5 s
+fuse_context:
+	fuse = a9667480
+	uid =  0
+	gid =  0
+	pid =  0
+	private_data = a9665eb0
+	logfile = a9666ef0
+	path_to_cache = /tmp/hsabuwal/cache
+	umask = 00000
+
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980)
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980) returned=-2
+    si:
+	st_dev =  0
+	st_ino =  0
+	st_mode = 0 0
+	st_nlink =  0
+	st_uid =  0
+	st_gid =  0
+	st_rdev =  0
+	st_size =  0
+	st_blksize =  0
+	st_blocks =  0
+	st_atime = 0x 00000000
+	st_mtime = 0x 00000000
+	st_ctime = 0x 00000000
+
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980)
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980) returned=-2
+    si:
+	st_dev =  0
+	st_ino =  0
+	st_mode = 0 0
+	st_nlink =  0
+	st_uid =  0
+	st_gid =  0
+	st_rdev =  0
+	st_size =  0
+	st_blksize =  0
+	st_blocks =  0
+	st_atime = 0x 00000000
+	st_mtime = 0x 00000000
+	st_ctime = 0x 00000000
+
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980)
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980) returned=-2
+    si:
+	st_dev =  0
+	st_ino =  0
+	st_mode = 0 0
+	st_nlink =  0
+	st_uid =  0
+	st_gid =  0
+	st_rdev =  0
+	st_size =  0
+	st_blksize =  0
+	st_blocks =  0
+	st_atime = 0x 00000000
+	st_mtime = 0x 00000000
+	st_ctime = 0x 00000000
+
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980)
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980) returned=-2
+    si:
+	st_dev =  0
+	st_ino =  0
+	st_mode = 0 0
+	st_nlink =  0
+	st_uid =  0
+	st_gid =  0
+	st_rdev =  0
+	st_size =  0
+	st_blksize =  0
+	st_blocks =  0
+	st_atime = 0x 00000000
+	st_mtime = 0x 00000000
+	st_ctime = 0x 00000000
+
+watdfs_mknod(path="/tr.txt", mode=0100751, dev=0)
+watdfs_mknod(path="/tr.txt", mode=0100751, dev=0) returned=0
+
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980)
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980) returned=0
+    si:
+	st_dev =  2053
+	st_ino =  26748315
+	st_mode = 0 100751
+	st_nlink =  1
+	st_uid =  3896
+	st_gid =  5083
+	st_rdev =  0
+	st_size =  0
+	st_blksize =  4096
+	st_blocks =  0
+	st_atime = 0x 622aa3cf
+	st_mtime = 0x 622aa3cf
+	st_ctime = 0x 622aa3cf
+
+watdfs_open(path"/tr.txt", fi=0x723cfa30)
+    fi:
+	flags = 0x 00008002
+	fh_old = 0x 00000000
+	writepage =  0
+	direct_io =  0
+	keep_cache =  0
+	fh = 0x 0000000000000000
+	lock_owner = 0x 0000000000000000
+    fi:
+	flags = 0x 00008002
+	fh_old = 0x 00000000
+	writepage =  0
+	direct_io =  0
+	keep_cache =  0
+	fh = 0x 0000000000000008
+	lock_owner = 0x 0000000000000000
+watdfs_open(path"/tr.txt", fi=0x723cfa30) returned=0
+
+always_flush(path="/tr.txt", fi=0x723cfa30), returned:0
+
+watdfs_release(path="/tr.txt", fi=0x723cfa30)
+    fi:
+	flags = 0x 00008002
+	fh_old = 0x 00000008
+	writepage =  0
+	direct_io =  0
+	keep_cache =  0
+	fh = 0x 0000000000000008
+	lock_owner = 0x 0000000000000000
+watdfs_release(path="/tr.txt", fi=0x723cfa30) returned=0
+
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980)
+watdfs_getattr(path="/tr.txt", statbuf=0x723cf980) returned=0
+    si:
+	st_dev =  2053
+	st_ino =  26748315
+	st_mode = 0 100751
+	st_nlink =  1
+	st_uid =  3896
+	st_gid =  5083
+	st_rdev =  0
+	st_size =  0
+	st_blksize =  4096
+	st_blocks =  0
+	st_atime = 0x 622aa3cf
+	st_mtime = 0x 622aa3cf
+	st_ctime = 0x 622aa3d0

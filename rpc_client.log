@@ -1,0 +1,337 @@
+
+rpcClientInit()
+	Connecting to address:ubuntu2004-012, port:35545
+rpcClientInit(), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(mknod)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(mknod), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(lock), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(open), returned=0
+
+rpcCall(read)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678272 (is_input:0, is_output:1, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(read), returned=0
+
+rpcCall(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(release), returned=0
+
+rpcCall(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(unlock), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(open), returned=0
+
+rpcCall(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(lock), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(open), returned=0
+
+rpcCall(read)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678272 (is_input:0, is_output:1, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(read), returned=0
+
+rpcCall(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(release), returned=0
+
+rpcCall(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(unlock), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(lock), returned=0
+
+rpcCall(truncate)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(truncate), returned=0
+
+rpcCall(write)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547200 (is_input:1, is_output:0, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(write), returned=0
+
+rpcCall(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(unlock), returned=0
+
+rpcCall(utimens)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547168 (is_input:1, is_output:0, is_array:1, type:1, array_len:32)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(utimens), returned=0
+
+rpcCall(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(release), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(lock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(lock), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
+
+rpcCall(open)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-536805336 (is_input:1, is_output:1, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(open), returned=0
+
+rpcCall(read)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678272 (is_input:0, is_output:1, is_array:1, type:1, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-2147221504 (is_input:1, is_output:0, is_array:0, type:4, array_len:0)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(read), returned=0
+
+rpcCall(release)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-1610547160 (is_input:1, is_output:0, is_array:1, type:1, array_len:40)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(release), returned=0
+
+rpcCall(unlock)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		-2147287040 (is_input:1, is_output:0, is_array:0, type:3, array_len:0)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(unlock), returned=0
+
+rpcCall(getattr)
+	ArgTypes:[
+		-1610547192 (is_input:1, is_output:0, is_array:1, type:1, array_len:8)
+		1610678416 (is_input:0, is_output:1, is_array:1, type:1, array_len:144)
+		1073938432 (is_input:0, is_output:1, is_array:0, type:3, array_len:0)
+	]
+rpcCall(getattr), returned=0
